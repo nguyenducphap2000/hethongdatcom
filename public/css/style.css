@@ -1,0 +1,186 @@
+.table-btn {
+    font-size: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.table-btn.disable {
+    font-size: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: currentColor;
+    cursor: not-allowed;
+    background: darkgray;
+}
+
+.table-btn.active {
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+.py-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.lunch-container {
+    width: 1000px;
+}
+
+#days {
+    width: 39%;
+}
+
+.dayselect-label {
+    height: 40px;
+    padding-top: 1%;
+    width: calc(365px/9);
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.dayselect-label:hover {
+    cursor: pointer;
+}
+
+.dayselect-label.active {
+    height: 40px;
+    padding-top: 1%;
+    width: calc(365px/9);
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.statistic-day-amount {
+    width: 60%;
+}
+
+.dateofmonth {
+    width: calc(900px/18);
+    height: auto;
+    margin-right: 0.3%;
+}
+
+.dateofmonth-active {
+    border: 1px solid black;
+    background-color: gold;
+    height: 35px;
+    width: 50px;
+    border-radius: 10%;
+    text-align: center;
+}
+.dateofmonth{
+    border: 1px solid black;
+    background-color: gainsboro;
+    height: 35px;
+    width: 50px;
+    border-radius: 10%;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.day-amount {
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.day-infor {
+    display: flex;
+}
+
+.view-detail {
+    width: 90%;
+    height: auto;
+
+}
+
+.admin-container {
+    width: 100%;
+    display: flex;
+}
+.admin-menu{
+    width: 20%;
+}
+
+.admin-manage{
+    width: 80%;
+    margin-left: 2%;
+}
+
+.py-4 {
+    display: flex;
+    justify-content: center;
+}
+#selectprice{
+    width: 30%;
+}
+.CRUD-price{
+    padding-top: 3%;
+}
+.change-price{
+    text-align: center;
+}
+.pagination {justify-content: center;}
+.table-user-in-month{
+    width: 50%;
+}
+.manage-price{
+    width: 50%;
+}
+.viewdetail{
+    margin-top: 1%;
+}
+.day-disabled{
+    text-decoration: none;
+    color: black;
+}
+.day-disabled:hover{
+    color: black;
+    text-decoration: none;
+    cursor: not-allowed;
+}
+.days{
+    color: black;
+}
+.logo-vnpost{
+    width: 75%;
+}
+.card-header{
+    background-color: #FCB71E !important;
+}
+.card-body{
+    background-color: #FFFAD5 !important;
+}
+.nav-item.admin{
+    width: 44%;
+    transition: width 1s;
+}
+.nav-item.admin:hover{
+    width: 100%;
+    background-color: #FFFAD5;
+}
+.Detail-Day-Selected{
+    height: 40px;
+    padding-top: 1%;
+    width: calc(365px/9);
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: greenyellow;
+}
+.Detail-Day-NotSeleted{
+    height: 40px;
+    padding-top: 1%;
+    width: calc(365px/9);
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+.dayregistered{
+    width: 50%;
+}
